@@ -82,11 +82,14 @@
 
 ## 数据预处理
 > 由于原始数据集的样本总量较大且涉及特征较多，需要对样本数据进行较为繁琐的预处理工作以明确最终用于模型训练的输入特征和样本，抛弃异常数据样本和多余的特征以避免模型过拟合。样本特征包括标签类和数值类两大类，根据特征代表实际含义可得到如下表格：    
+>    
 > | 特征类型 | 特征名称 |    
 > | --- | --- |    
 > | 标签量 | id, term, grade, subGrade, employmentTitle, homeOwnership, verificationStatus, purpose, initialListStatus, applicationType, title, policyCode |    
 > | 数值量 | loanAmnt, interestRate, installment, employmentLength, annualIncome, issueDate, postCode, regionCode, dti, delinquency_2years, ficoRangeLow, ficoRangeHigh, openAcc, pubRec, pubRecBankruptcies, revolBal, revolUtil, totalAcc, earliesCreditLine, n系列匿名特征 |    
+>    
 > 其中“id”为无关变量需要优先从数据集中剔除该特征影响，另外“employmentLength”“issueDate”“earliesCreditLine”等特征采用的是时间格式记录，为了便于计算需要对其进行转化。经过初步筛选优先将以下特征从样本中剔除：    
+>    
 > | 特征名称 | 原因 |    
 > | --- | --- |    
 > | id | 赋予用户的随机编码，无关变量 |    
@@ -97,6 +100,7 @@
 > | postCode | 邮编前三位，可能重复且地区信息可由地区编码得知，冗余信息 |    
 > | applicationType | 申请类型，数据偏倚程度过大，混淆信息 |    
 > | n11, n12, n13 | n系列特征，数据偏倚程度过大，混淆信息 |    
+>    
 > 删除以上字段之后，对其余信息根据统计学$3\sigma$原则进行异常数据统计和筛选，详细结果记录在项目根目录下的clean.txt文件中。数据清洗结果表明，保留的特征中正负样本的比例基本持平，异常数据在所有样本中的占比较少，根据$3\sigma$原则剔除其余不符合相应条件的异常样本，最终保留的样本数量约占原始总量的九成，能够在很大程度上保留原始总体的主要分布特征。    
 > 经数据清洗后保留下的样本数据即可作为用于训练的数据集，根据特征类型不同对标签类特征进行one-hot处理，对数值类特征进行标准化和归一化处理，并将处理后的数据集按比例随机抽样为训练集和测试集。    
 ---
