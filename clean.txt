@@ -1,0 +1,457 @@
+********************
+Data Pre-processing ...
+F    800000
+Name: loanAmnt_outlier, dtype: int64
+loanAmnt_outlier
+F    159610
+Name: isDefault, dtype: int64
+- Default Proportion -
+D/A: 19.95%
+- Outlier Proportion -
+Have No Outlier.
+--------------------
+F    794259
+T      5741
+Name: interestRate_outlier, dtype: int64
+interestRate_outlier
+F    156694
+T      2916
+Name: isDefault, dtype: int64
+- Default Proportion -
+D/A: 19.73%
+- Outlier Proportion -
+interestRate: 0.72%
+isDefault: 1.86%
+Accept!
+--------------------
+F    792046
+T      7954
+Name: installment_outlier, dtype: int64
+installment_outlier
+F    157458
+T      2152
+Name: isDefault, dtype: int64
+- Default Proportion -
+D/A: 19.88%
+- Outlier Proportion -
+installment: 1.00%
+isDefault: 1.37%
+Accept!
+--------------------
+F    800000
+Name: employmentTitle_outlier, dtype: int64
+employmentTitle_outlier
+F    159610
+Name: isDefault, dtype: int64
+- Default Proportion -
+D/A: 19.95%
+- Outlier Proportion -
+Have No Outlier.
+--------------------
+F    800000
+Name: employmentLength_outlier, dtype: int64
+employmentLength_outlier
+F    159610
+Name: isDefault, dtype: int64
+- Default Proportion -
+D/A: 19.95%
+- Outlier Proportion -
+Have No Outlier.
+--------------------
+F    793973
+T      6027
+Name: annualIncome_outlier, dtype: int64
+annualIncome_outlier
+F    158854
+T       756
+Name: isDefault, dtype: int64
+- Default Proportion -
+D/A: 20.01%
+- Outlier Proportion -
+annualIncome: 0.76%
+isDefault: 0.48%
+Accept!
+--------------------
+F    798440
+T      1560
+Name: dti_outlier, dtype: int64
+dti_outlier
+F    159144
+T       466
+Name: isDefault, dtype: int64
+- Default Proportion -
+D/A: 19.93%
+- Outlier Proportion -
+dti: 0.20%
+isDefault: 0.29%
+Accept!
+--------------------
+F    778245
+T     21755
+Name: delinquency_2years_outlier, dtype: int64
+delinquency_2years_outlier
+F    154521
+T      5089
+Name: isDefault, dtype: int64
+- Default Proportion -
+D/A: 19.86%
+- Outlier Proportion -
+delinquency_2years: 2.80%
+isDefault: 3.29%
+Accept!
+--------------------
+F    788261
+T     11739
+Name: ficoRangeLow_outlier, dtype: int64
+ficoRangeLow_outlier
+F    158832
+T       778
+Name: isDefault, dtype: int64
+- Default Proportion -
+D/A: 20.15%
+- Outlier Proportion -
+ficoRangeLow: 1.49%
+isDefault: 0.49%
+Accept!
+--------------------
+F    788261
+T     11739
+Name: ficoRangeHigh_outlier, dtype: int64
+ficoRangeHigh_outlier
+F    158832
+T       778
+Name: isDefault, dtype: int64
+- Default Proportion -
+D/A: 20.15%
+- Outlier Proportion -
+ficoRangeHigh: 1.49%
+isDefault: 0.49%
+Accept!
+--------------------
+F    790889
+T      9111
+Name: openAcc_outlier, dtype: int64
+openAcc_outlier
+F    157415
+T      2195
+Name: isDefault, dtype: int64
+- Default Proportion -
+D/A: 19.90%
+- Outlier Proportion -
+openAcc: 1.15%
+isDefault: 1.39%
+Accept!
+--------------------
+F    792471
+T      7529
+Name: pubRec_outlier, dtype: int64
+pubRec_outlier
+F    157909
+T      1701
+Name: isDefault, dtype: int64
+- Default Proportion -
+D/A: 19.93%
+- Outlier Proportion -
+pubRec: 0.95%
+isDefault: 1.08%
+Accept!
+--------------------
+F    794120
+T      5880
+Name: pubRecBankruptcies_outlier, dtype: int64
+pubRecBankruptcies_outlier
+F    158187
+T      1423
+Name: isDefault, dtype: int64
+- Default Proportion -
+D/A: 19.92%
+- Outlier Proportion -
+pubRecBankruptcies: 0.74%
+isDefault: 0.90%
+Accept!
+--------------------
+F    790001
+T      9999
+Name: revolBal_outlier, dtype: int64
+revolBal_outlier
+F    158251
+T      1359
+Name: isDefault, dtype: int64
+- Default Proportion -
+D/A: 20.03%
+- Outlier Proportion -
+revolBal: 1.27%
+isDefault: 0.86%
+Accept!
+--------------------
+F    799948
+T        52
+Name: revolUtil_outlier, dtype: int64
+revolUtil_outlier
+F    159587
+T        23
+Name: isDefault, dtype: int64
+- Default Proportion -
+D/A: 19.95%
+- Outlier Proportion -
+revolUtil: 0.01%
+isDefault: 0.01%
+Accept!
+--------------------
+F    791663
+T      8337
+Name: totalAcc_outlier, dtype: int64
+totalAcc_outlier
+F    157942
+T      1668
+Name: isDefault, dtype: int64
+- Default Proportion -
+D/A: 19.95%
+- Outlier Proportion -
+totalAcc: 1.05%
+isDefault: 1.06%
+Accept!
+--------------------
+F    784586
+T     15414
+Name: applicationType_outlier, dtype: int64
+applicationType_outlier
+F    155735
+T      3875
+Name: isDefault, dtype: int64
+- Default Proportion -
+D/A: 19.85%
+- Outlier Proportion -
+applicationType: 1.96%
+isDefault: 2.49%
+Accept!
+--------------------
+F    775134
+T     24866
+Name: title_outlier, dtype: int64
+title_outlier
+F    155710
+T      3900
+Name: isDefault, dtype: int64
+- Default Proportion -
+D/A: 20.09%
+- Outlier Proportion -
+title: 3.21%
+isDefault: 2.50%
+Accept!
+--------------------
+F    782773
+T     17227
+Name: n0_outlier, dtype: int64
+n0_outlier
+F    156125
+T      3485
+Name: isDefault, dtype: int64
+- Default Proportion -
+D/A: 19.95%
+- Outlier Proportion -
+n0: 2.20%
+isDefault: 2.23%
+Accept!
+--------------------
+F    790500
+T      9500
+Name: n1_outlier, dtype: int64
+n1_outlier
+F    157119
+T      2491
+Name: isDefault, dtype: int64
+- Default Proportion -
+D/A: 19.88%
+- Outlier Proportion -
+n1: 1.20%
+isDefault: 1.59%
+Accept!
+--------------------
+F    789067
+T     10933
+Name: n2_outlier, dtype: int64
+n2_outlier
+F    156405
+T      3205
+Name: isDefault, dtype: int64
+- Default Proportion -
+D/A: 19.82%
+- Outlier Proportion -
+n2: 1.39%
+isDefault: 2.05%
+Accept!
+--------------------
+F    789067
+T     10933
+Name: n3_outlier, dtype: int64
+n3_outlier
+F    156405
+T      3205
+Name: isDefault, dtype: int64
+- Default Proportion -
+D/A: 19.82%
+- Outlier Proportion -
+n3: 1.39%
+isDefault: 2.05%
+Accept!
+--------------------
+F    788660
+T     11340
+Name: n4_outlier, dtype: int64
+n4_outlier
+F    157134
+T      2476
+Name: isDefault, dtype: int64
+- Default Proportion -
+D/A: 19.92%
+- Outlier Proportion -
+n4: 1.44%
+isDefault: 1.58%
+Accept!
+--------------------
+F    790355
+T      9645
+Name: n5_outlier, dtype: int64
+n5_outlier
+F    157752
+T      1858
+Name: isDefault, dtype: int64
+- Default Proportion -
+D/A: 19.96%
+- Outlier Proportion -
+n5: 1.22%
+isDefault: 1.18%
+Accept!
+--------------------
+F    786006
+T     13994
+Name: n6_outlier, dtype: int64
+n6_outlier
+F    156428
+T      3182
+Name: isDefault, dtype: int64
+- Default Proportion -
+D/A: 19.90%
+- Outlier Proportion -
+n6: 1.78%
+isDefault: 2.03%
+Accept!
+--------------------
+F    788430
+T     11570
+Name: n7_outlier, dtype: int64
+n7_outlier
+F    156864
+T      2746
+Name: isDefault, dtype: int64
+- Default Proportion -
+D/A: 19.90%
+- Outlier Proportion -
+n7: 1.47%
+isDefault: 1.75%
+Accept!
+--------------------
+F    789625
+T     10375
+Name: n8_outlier, dtype: int64
+n8_outlier
+F    157479
+T      2131
+Name: isDefault, dtype: int64
+- Default Proportion -
+D/A: 19.94%
+- Outlier Proportion -
+n8: 1.31%
+isDefault: 1.35%
+Accept!
+--------------------
+F    786384
+T     13616
+Name: n9_outlier, dtype: int64
+n9_outlier
+F    155657
+T      3953
+Name: isDefault, dtype: int64
+- Default Proportion -
+D/A: 19.79%
+- Outlier Proportion -
+n9: 1.73%
+isDefault: 2.54%
+Accept!
+--------------------
+F    788979
+T     11021
+Name: n10_outlier, dtype: int64
+n10_outlier
+F    156971
+T      2639
+Name: isDefault, dtype: int64
+- Default Proportion -
+D/A: 19.90%
+- Outlier Proportion -
+n10: 1.40%
+isDefault: 1.68%
+Accept!
+--------------------
+F    799434
+T       566
+Name: n11_outlier, dtype: int64
+n11_outlier
+F    159498
+T       112
+Name: isDefault, dtype: int64
+- Default Proportion -
+D/A: 19.95%
+- Outlier Proportion -
+n11: 0.07%
+isDefault: 0.07%
+Accept!
+--------------------
+F    797585
+T      2415
+Name: n12_outlier, dtype: int64
+n12_outlier
+F    159065
+T       545
+Name: isDefault, dtype: int64
+- Default Proportion -
+D/A: 19.94%
+- Outlier Proportion -
+n12: 0.30%
+isDefault: 0.34%
+Accept!
+--------------------
+F    788907
+T     11093
+Name: n13_outlier, dtype: int64
+n13_outlier
+F    157128
+T      2482
+Name: isDefault, dtype: int64
+- Default Proportion -
+D/A: 19.92%
+- Outlier Proportion -
+n13: 1.41%
+isDefault: 1.58%
+Accept!
+--------------------
+F    788884
+T     11116
+Name: n14_outlier, dtype: int64
+n14_outlier
+F    156246
+T      3364
+Name: isDefault, dtype: int64
+- Default Proportion -
+D/A: 19.81%
+- Outlier Proportion -
+n14: 1.41%
+isDefault: 2.15%
+Accept!
+--------------------
+Done.
+********************
+Function: load_data, Cost: 69.360sec
+
+Process finished with exit code 0
